@@ -21,19 +21,16 @@ Then, clone this repository to your local machine:
 git clone https://github.com/Ahmed-Elzayat112/study-tracker.git
 
 To use Study Tracker, you need to create a database and a table in Microsoft SQL Server. You can use the following SQL script to create them:
+```bash
 CREATE DATABASE StudyTracker;
-GO
-
 USE StudyTracker;
-GO
-
 CREATE TABLE StudyLog (
     ID INT IDENTITY(1,1) PRIMARY KEY,
     Subject VARCHAR(50) NOT NULL,
     Date DATE NOT NULL,
     Hours INT NOT NULL
 );
-GO
+```
 
 Then, you need to modify the connection string in the study_tracker.py file to match your server name, database name, user name, and password.
 After that, you can run the study_tracker.py file to launch the application. You will see a window like this:
