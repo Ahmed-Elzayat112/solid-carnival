@@ -18,7 +18,7 @@ pip install pypyodbc
 ```
 
 Then, clone this repository to your local machine:
-git clone https://github.com/your-username/study-tracker.git
+git clone https://github.com/Ahmed-Elzayat112/study-tracker.git
 
 To use Study Tracker, you need to create a database and a table in Microsoft SQL Server. You can use the following SQL script to create them:
 CREATE DATABASE StudyTracker;
